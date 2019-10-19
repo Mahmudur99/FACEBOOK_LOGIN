@@ -1,0 +1,210 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+/*header start*/
+header{
+	background-color: #3E5B9A;
+	padding: 10px;
+}
+.left{
+	width: 30%;
+	float: left;
+}
+.left a{
+	text-decoration: none;
+}
+.left a h1{
+	font-size: 40px;
+	color: white;
+	margin-top: 18px;
+	margin-bottom: 10px;
+}
+.right{
+	width: 60%;
+	float: right;
+}
+.login{
+	float: right;
+	color: #E8F0FE;
+}
+.for_login{
+	text-align: left;
+}
+.for_login th{
+	font-size: 12px;
+}
+
+.for_login input[type="email"]{
+	width: 140px;
+	margin-right: 10px;
+	padding: 4px;
+	border: none;
+}
+.for_login input[type="password"]{
+	width: 140px;
+	margin-right: 10px;
+	padding: 4px;
+	border: none;
+}
+.for_login a{
+	color: #9cb4d8;
+	font-size: 12px;
+	transition: 0.3s;
+}
+.for_login a:hover{
+	text-decoration: underline;
+}
+
+.for_login button{
+	background: #4267B2;
+	border: none;
+	border: 1px solid #29487d;
+	padding: 4px 7px;
+	font-weight: 700;
+	font-size: 12px;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.for_login button:hover{
+	background-color: #3E64A9;
+}
+/*header end*/
+/*main form start*/
+main{
+	background: linear-gradient(white, #EAECF4);
+	padding: 30px 0;
+}
+.network {
+	width: 50%;
+	float: left;
+}
+.network h2{
+	font-weight: 700;
+	font-size: 20px;
+	color: #5B86BA;
+	margin:20px 0 5px;
+	line-height: 1.5;
+}
+.network img{
+	width: 100%;
+}
+.account {
+	width: 42.5%;
+	float: right;
+}
+.account h1{
+	font-size: 34px;
+	color: #333;
+	margin-bottom: 10px;
+}
+.account p{
+	font-size: 19px;
+	color: #1d2129;
+	margin: 10px 0;
+}
+
+.form table tr{
+	display: block;
+}
+
+.fname , .lname{
+	font-size: 18px;
+    padding: 8px 10px;
+	margin-right: 10px;
+	width: 170px;
+	border: none;
+	border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+
+.number{
+	font-size: 18px;
+    padding: 8px 10px;
+    border: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    width: 375px;
+    margin: 5px 0;
+}
+.birth{
+	overflow: hidden;
+}
+.birth p{
+	color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.birth ul{
+	margin: 0;
+	padding: 0;
+}
+.birth ul p{
+	color: #899CC0;
+	font-size: 13px;
+	margin-left: 220px;
+    margin-right: 81px;
+}
+.birth ul li{
+	list-style: none;
+	float: left;
+}
+.birth ul li select{
+	font-size: 13px;
+	color: #1c1e21;
+	height: 30px;
+	padding: 5px 15px 5px 5px;
+	background-color: #fff;
+}
+
+.gender{
+	display: block;
+}
+.gender input{
+	color: Black;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-top: 18px;
+}
+
+.acc p{
+	font-size: 11px;
+	color: #777;
+}
+.acc p a{
+	color: #385898;
+}
+
+.acc p a:hover{
+	text-decoration: underline;
+}
+
+.signup_button button{
+	width: 194px;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	padding: 7px 20px;
+	background-color: #62A34F;
+	border: 1px solid #3b6e22;
+    border-radius: 5px;
+	box-shadow: 0 1px 1px #a4e388;
+	margin: 20px 0;
+    display: block;
+    transition: 0.3s;
+}
+.signup_button button:hover{
+	background-color: #578843;
+}
+/*main form end*/
